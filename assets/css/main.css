@@ -154,7 +154,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+		/* border-bottom: dotted 1px rgba(255, 255, 255, 0.5); */
 		text-decoration: none;
 		color: inherit;
 	}
@@ -646,7 +646,7 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.image:before {
+		/* .image:before {
 			pointer-events: none;
 			background-image: url("../../images/overlay.png");
 			background-color: rgba(19, 21, 25, 0.5);
@@ -659,7 +659,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			width: 100%;
-		}
+		} */
 
 		.image img {
 			border-radius: 4px;
@@ -693,6 +693,16 @@ input, select, textarea {
 		}
 
 			.image.fit img {
+				width: 100%;
+			}
+
+		.image.logo {
+			display: block;
+			/* margin: 2.5rem 0; */
+			width: 100%;
+		}
+
+			.image.logo img {
 				width: 100%;
 			}
 
@@ -894,6 +904,35 @@ input, select, textarea {
 						}
 
 		}
+
+/* Avatars */
+	ul.avatars {
+		/* cursor: default; */
+		list-style: none;
+		padding-left: 0;
+		text-align: center;
+	}
+
+		ul.avatars li {
+			display: inline-block;
+			padding: 0.75em 0 0 0.75em;
+		}
+
+			ul.avatars li:last-child {
+				padding-right: 0;
+			}
+
+			ul.avatars li a {
+				border-radius: 100%;
+				/* box-shadow: inset 0 0 0 1px #ffffff; */
+				/* display: inline-block; */
+				height: 6rem;
+				/* line-height: 9rem; */
+				text-align: center;
+				width: 6rem;
+			}
+
+		
 
 /* Icons */
 
@@ -1141,7 +1180,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			/* background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png"); */
 			background-size: auto,
  256px 256px;
 			background-position: center,
@@ -1256,10 +1295,10 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
+		/* background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
+		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%); */
 		max-width: 100%;
 		text-align: center;
 	}
@@ -1296,8 +1335,8 @@ input, select, textarea {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid 1px #ffffff;
-			border-radius: 100%;
+			/* border: solid 1px #ffffff; */
+			border-radius: 0%;
 		}
 
 			#header .logo .icon:before {
@@ -1634,7 +1673,7 @@ input, select, textarea {
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		width: 100%;
 		max-width: 100%;
-		margin-top: 2rem;
+		/* margin-top: 2rem; */
 		text-align: center;
 	}
 
