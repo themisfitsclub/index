@@ -145,7 +145,7 @@ input, select, textarea {
 		color: #ffffff;
 		font-family: "VT323", "Source Sans Pro", sans-serif;
 		font-weight: 300;
-		font-size: 1rem;
+		font-size: 1.25rem;
 		line-height: 1.65;
 	}
 
@@ -165,7 +165,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #ffffff;
-		font-weight: 600;
+		font-weight: 300;
 	}
 
 	em, i {
@@ -207,13 +207,13 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.5rem;
+		font-size: 1.75rem;
 		line-height: 1.4;
 		letter-spacing: 0.5rem;
 	}
 
 	h3 {
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}
 
 	h4 {
@@ -259,6 +259,7 @@ input, select, textarea {
 		font-style: italic;
 		margin: 0 0 2rem 0;
 		padding: 0.5rem 0 0.5rem 2rem;
+		font-weight: lighter;
 	}
 
 	code {
@@ -915,7 +916,7 @@ input, select, textarea {
 
 		ul.avatars li {
 			display: inline-block;
-			padding: 0.75em 0 0 0.75em;
+			padding: 0.50em 0 0 0.50em;
 		}
 
 			ul.avatars li:last-child {
@@ -1372,7 +1373,7 @@ input, select, textarea {
 			#header .content p {
 				/* text-transform: uppercase; */
 				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
+				font-size: 1.2rem;
 				line-height: 2;
 			}
 
